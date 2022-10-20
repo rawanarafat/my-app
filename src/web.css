@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
+
+
+* {
+    background-color: hsl(214,67%,10%);
+    padding-left: 30px;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    color: #ead6f2;  /* dea2e7 / eb7a34 / b7c5fe / 4cdace / ead6f2 */
+    padding-left: 25px;
+    margin-bottom: 0px;
+    font-family: 'NTR', sans-serif;
+    font-size: 80px;
+}
+
+.title{
+    color: #8892af;
+    font-family: 'NTR', sans-serif;
+    margin: 0px;
+    padding-left: 25px;
+    font-size: 20px;
+    margin-bottom: 40px;
+   
+}
+
+a {
+   border: 2px solid;
+   padding: 5px 20px;
+   text-decoration: none;
+   background-color: transparent;
+   margin-top: 10px;
+   margin-left: 25px;
+   display: inline-block;
+   border-radius: 4px;
+   border-color: rgb(231, 162, 205);
+   
+   
+   
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+img {
+    transform-origin: 0px 0px;
+    float: left;
+    margin-right: 7px; 
+    
+    
+}
+
+.text {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 22px;
+    color: rgb(231, 162, 205);
+    font-family: 'NTR', sans-serif;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 46px;
+    color: #ccd6f6;
+    font-family: 'NTR', sans-serif;
+    display: flex;
+    width: 100vw;
+    margin-bottom: 0px;
+
+}
+
+.header::after {
+    content: " ";
+    display: block;
+    width: 300px;
+    margin-top: 49px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #ccd6f6 ;
+    
+}
+
+.description{
+    color: #8892b0;
+    font-family: 'NTR', sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    display: block;
+    line-height: 33px;
+    max-width: 600px;
+    text-align: justify;
+    
+}
+
+.space{
+    margin-top: 10rem;
+}
+
+.list{
+    margin-left: 25px;
+    color: #8892b0;
+}
+
+.list li{
+    padding:10px;
+}
+
+.spaceh {
+    margin-top: 17rem;
+    margin-bottom: 0rem;
+}
+
+.spaceimg {
+    position: relative;
+    padding-top: 20px;
+    
+    
+   
+    
+}
+
+.link {
+
+    border: none;
+    padding: 0px;
+    margin: 0;
+    color: #c9c1f5;
+    font-weight: bold;
+}
+
+  
+
+.ps{
+    color: #8892b0;
+}
+
+.ps li {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0;
+}
+
+.btn {
+    position: relative;
+    overflow: hidden;
+    color: #c9c1f5;
+    font-size: 18px;
+    border: 0;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+   
+  
+}
+
+.rip {
+    border-radius: 4px;
+    width: 250px;
+    padding-left: 10px;
+    height: 60px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    
+
+}
+
+
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+.btn::after{
+    content: " ";
+    display: block;
+    width: 230px;
+    margin-top: 20px;
+    height: 1.5px;
+    margin-left: 0px;
+    background-color: #c9c1f5 ;
+}
+
+
+
+.card {
+    line-height: 17px;
+    font-size: 16px;
+}
+
+.bigtitle {
+    padding: 20px;
+    font-size: 23px;
+    color:  #ccd6f6;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.card ol {
+    line-height: 25px;
+    
+
+}
+
+.card ol li {
+    list-style-type: circle;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: justify;
+    width: 700px;
+    padding: 8px;
+
+   
+
+}
+
+.card ol li:before {
+    content: "• ";
+}
+
+
+.comname{
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 0px;
+    
+}
+
+.outwork{
+    color: #8892b0;
+    font-family: 'NTR', sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    display: block;
+    line-height: 33px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.etsy{
+    color: #c9c1f5;
+    text-align: justify;
+    border: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    font-weight: 700;
+}
+
+
+
+
+.links{
+    position: fixed;
+    color: #8892b0;
+    font-family: 'NTR', sans-serif;
+    font-size: 25px;
+    padding-right: 30px;
+    right: 10px;
+    top: 25%;
+   
+    
+}
+
+.links h3{
+    
+    margin: 0px;
+    height: 50px;
+    color: #c9c1f5;
+    
+    
+}
+
+.links a{
+    
+    border: 0px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 23px;
+    padding-left: 30px;
+    color: #c9c1f5;
+    height: 30px;
+    
+}
+
+.links a:hover{
+    color: #8892b0;
+}
+
+.psd{
+    padding-left: 0px;
+    max-width: 1500px;
+    box-sizing: border-box;
+   
+}
+
+.psd .btnn {
+    
+    color: #c9c1f5;
+    border: none;
+    text-align: center;
+    padding-left: 60px;
+    background-color: #11213e;
+    padding-bottom: 20px;
+    font-family: "NTR",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.comname {
+    color: #8892b0;
+    width: 88.5%;
+    font-size: 18px;
+    background-color: #11213e;
+    padding: 0px;
+    padding-left: 0px;
+    
+    
+    
+}
+
+
+
+.lang{
+    color: #8892b0;
+    width: 88.5%;
+    font-size: 18px;
+    background-color: #11213e;
+    padding: 0px;
+    padding-left: 0px;
+}
+
+.lang:before{
+    content: "• ";
+}
+li{
+    cursor: default;
+    display: inline-block;
+    height: 100%;
+    background-color: var(--light-navy);
+    border-radius: 16px;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+
+.procards{
+    background-color: #11213e;
+    margin: 30px;
+    padding: 20px;
+    width: 33%; /* change to 30% to have three boxesin the same line*/
+    border-radius: 16px;
+    height: 370px;
+    margin: 10;
+    display:inline;
+    float:left;
+    align-items: center;
+   
+    
+}
+
+.procards p{
+    background-color: #11213e;
+    color: #8892b0;
+    margin: 0px;
+    padding-left: 40px;
+    display: inline-block;
+    max-width: 250px;
+    min-height: 100px;
+}
+
+div.procards{
+    background-color: #11213e;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 10px;
+}
+.procard{
+    padding-left: 0px;
+    background-color: #11213e;
+    
+}
+.cardnames{
+    padding: 0px;
+    background-color: #11213e;
+    
+}
+
+.prodatas2 .comname{
+    max-width: 500px;
+}
+
+.githublogo4{
+    background-color: #11213e;
+    margin-top: 20px;
+}
+.githublogo3{
+    background-color: #11213e;
+    margin-top: 20px;
+}
+
+.githublogo2{
+    background-color: #11213e;
+    margin-top: 0px;
+}
+.githublogo1{
+    background-color: #11213e;
+    margin-top: 20px;
+}
+
+.btnn1{
+    border: 0px;
+    padding: 0px;
+    background-color: #11213e;
+    cursor: pointer;
+    
+}
+
+.btnn1 img{
+    padding-left: 0px;
+}
+
+.spaces{
+    width: 1000px;
+}
+
+.rights{
+    color: #8892b0;
+    text-align: center;
+}
+
+
+
